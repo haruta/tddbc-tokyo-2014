@@ -1,0 +1,5 @@
+platform :ios, "7.0"
+pod 'AFNetworking', '~> 2.0'
+target 'tddbc-tokyo-3Tests', :exclusive => true do
+  pod 'Kiwi'
+end
